@@ -1,0 +1,28 @@
+---
+title: "DNA Hydroxymethylation in Hepatocellular Carcinoma"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{DNA Hydroxymethylation in Hepatocellular Carcinoma}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+#library(omicScaleAnalyticR)
+```
+
+<!-- To run
+# nohup Rscript -e "knitr::knit2html('HCC_5hmc.Rmd')" > HCC_5hmc.log  &
+
+# Or
+# nohup Rscript -e "rmarkdown::render('HCC_5hmc.Rmd')" > HCC_5hmc.log  &
+
+-->
+
