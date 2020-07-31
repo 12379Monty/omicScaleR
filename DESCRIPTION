@@ -21,4 +21,3 @@ Suggests:
     blogdown,
     dplyr
 VignetteBuilder: knitr
-Depends: R (>= 2.10)
