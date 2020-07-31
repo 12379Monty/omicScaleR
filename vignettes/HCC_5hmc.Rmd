@@ -5,6 +5,7 @@ vignette: >
   %\VignetteIndexEntry{DNA Hydroxymethylation in Hepatocellular Carcinoma}
   %\VignetteEngine{knitr::rmarkdown}
   %\VignetteEncoding{UTF-8}
+  %\VignetteDepends{purrr,blogdown,dplyr}
 ---
 
 ```{r, include = FALSE}
@@ -17,6 +18,44 @@ knitr::opts_chunk$set(
 ```{r setup}
 #library(omicScaleAnalyticR)
 ```
+
+```{r echo=FALSE, include=F}
+blogdown::shortcode('tweet', '922545181634768897')
+```
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">I’m embarrassed to admit that, while I aspire to be a tidyverser, I remain a somewhat desiccated baseR-er. 😳 <a href="https://twitter.com/hashtag/rstats?src=hash&amp;ref_src=twsrc%5Etfw">#rstats</a> <a href="https://t.co/lxEFfoU8tw">https://t.co/lxEFfoU8tw</a></p>&mdash; Karl Broman (@kwbroman) <a href="https://twitter.com/kwbroman/status/922545181634768897?ref_src=twsrc%5Etfw">October 23, 2017</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+```{r getTiduverseFncs, include=F}
+
+ # map_
+ library(purrr)
+ map_fcns <- ls("package:purrr", patt='^map_')
+
+ # merge
+ library(dplyr)
+ join_fcns <- ls("package:dplyr", patt='_join$')
+
+
+ # install_
+ library(devtools)
+ install_fcns <- ls("package:devtools", patt='install')
+
+```
+
+<br/>
+<br/>
+
+There are `r length(map_fcns)` **map** functions in the `purrr` package:  
+
+* `r map_fcns`  
+
+The are `r length(join_fcns)` **join** functions in the `dplyr` package:  
+
+* `r join_fcns`  
+
+I would guess that over 99% of use cases are perfectly well covered by one or two lines
+of code invoking either the `base::lapply` or the `base::merge` function.
+
 
 <!-- To run
 # nohup Rscript -e "knitr::knit2html('HCC_5hmc.Rmd')" > HCC_5hmc.log  &

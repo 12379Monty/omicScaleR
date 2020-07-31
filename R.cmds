@@ -1,0 +1,12 @@
+# In parent dir
+devtools::create("OmicScaleAnlyticR")
+
+# In OmicScaleAnlyticR dir
+usethis::use_mit_license(name="Francois Collin")
+
+devtools::check()
+
+usethis::use_data_raw(name="HCC_5hmC_data")
+
+devtools::document()
+

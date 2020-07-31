@@ -1,25 +1,42 @@
 
 
 processing file: HCC_5hmc.Rmd
-  |                                                                              |                                                                      |   0%  |                                                                              |..............                                                        |  20%
+  |                                                                              |                                                                      |   0%  |                                                                              |........                                                              |  11%
   ordinary text without R code
 
-  |                                                                              |............................                                          |  40%
+  |                                                                              |................                                                      |  22%
 label: unnamed-chunk-1 (with options) 
 List of 1
  $ include: logi FALSE
 
-  |                                                                              |..........................................                            |  60%
+  |                                                                              |.......................                                               |  33%
   ordinary text without R code
 
-  |                                                                              |........................................................              |  80%
+  |                                                                              |...............................                                       |  44%
 label: setup
-  |                                                                              |......................................................................| 100%
+  |                                                                              |.......................................                               |  56%
   ordinary text without R code
+
+  |                                                                              |...............................................                       |  67%
+label: unnamed-chunk-2 (with options) 
+List of 2
+ $ echo   : logi FALSE
+ $ include: symbol F
+
+  |                                                                              |......................................................                |  78%
+  ordinary text without R code
+
+  |                                                                              |..............................................................        |  89%
+label: getTiduverseFncs (with options) 
+List of 1
+ $ include: symbol F
+
+  |                                                                              |......................................................................| 100%
+   inline R code fragments
 
 
 output file: HCC_5hmc.knit.md
 
-/usr/local/bin/pandoc +RTS -K512m -RTS HCC_5hmc.utf8.md --to html4 --from markdown+autolink_bare_uris+tex_math_single_backslash --output HCC_5hmc.html --email-obfuscation none --self-contained --standalone --section-divs --template /Library/Frameworks/R.framework/Versions/4.0/Resources/library/rmarkdown/rmd/h/default.html --highlight-style pygments --css /Library/Frameworks/R.framework/Versions/4.0/Resources/library/rmarkdown/rmarkdown/templates/html_vignette/resources/vignette.css --include-in-header /var/folders/wd/v5lfllh152x0hwhtr773cnmnjqcpdt/T//RtmpAnRyFI/rmarkdown-str7e6d7ce0e798.html --mathjax --variable 'mathjax-url:https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML' --lua-filter /Library/Frameworks/R.framework/Versions/4.0/Resources/library/rmarkdown/rmd/lua/pagebreak.lua --lua-filter /Library/Frameworks/R.framework/Versions/4.0/Resources/library/rmarkdown/rmd/lua/latex-div.lua 
+/usr/local/bin/pandoc +RTS -K512m -RTS HCC_5hmc.utf8.md --to html4 --from markdown+autolink_bare_uris+tex_math_single_backslash --output HCC_5hmc.html --email-obfuscation none --self-contained --standalone --section-divs --template /Library/Frameworks/R.framework/Versions/4.0/Resources/library/rmarkdown/rmd/h/default.html --highlight-style pygments --css /Library/Frameworks/R.framework/Versions/4.0/Resources/library/rmarkdown/rmarkdown/templates/html_vignette/resources/vignette.css --include-in-header /var/folders/wd/v5lfllh152x0hwhtr773cnmnjqcpdt/T//Rtmp5xAhQK/rmarkdown-str975b4ad76878.html --mathjax --variable 'mathjax-url:https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML' --lua-filter /Library/Frameworks/R.framework/Versions/4.0/Resources/library/rmarkdown/rmd/lua/pagebreak.lua --lua-filter /Library/Frameworks/R.framework/Versions/4.0/Resources/library/rmarkdown/rmd/lua/latex-div.lua 
 
 Output created: HCC_5hmc.html
