@@ -1,6 +1,6 @@
 Package: omicScaleR
 Title: Analysis of Omic Scale Data 
-Version: 0.0.0.9000
+Version: 0.0.1
 Authors@R: 
     person(given = "Francois",
            family = "Collin",
@@ -8,7 +8,7 @@ Authors@R:
            email = "francois.collin@gmail.com",
            comment = c(ORCID = "0000-0002-6202-0141"))
 Description: Analysis of genomic scale data for the purpose of
-quality assessment and classification analysis.
+    quality assessment and classification analysis.
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
@@ -16,6 +16,9 @@ Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.0
 Suggests: 
     knitr,
-    rmarkdown
+    rmarkdown,
+    purrr,
+    blogdown,
+    dplyr
 VignetteBuilder: knitr
 Depends: R (>= 2.10)

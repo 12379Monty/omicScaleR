@@ -37,8 +37,8 @@ blogdown::shortcode('tweet', '922545181634768897')
 
 
  # install_
- library(devtools)
- install_fcns <- ls("package:devtools", patt='install')
+ #library(devtools)
+ #install_fcns <- ls("package:devtools", patt='install')
 
 ```
 
