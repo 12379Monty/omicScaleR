@@ -8,7 +8,6 @@ usethis::use_mit_license(name="Francois Collin")
 usethis::use_data_raw(name="HCC_5hmC_data")
 
 devtools::document()
-
 devtools::check()
 
 ### THIS IS TO PUT ON CRAN!!!
@@ -17,3 +16,15 @@ devtools::check()
 
 #release()
 
+# Styling
+########################
+formatR::tidy_dir("R")
+# or
+lintr::lint_package()
+
+
+# Documention
+devtools::check()
+devtools::document()
+devtools::load_all()
+?this

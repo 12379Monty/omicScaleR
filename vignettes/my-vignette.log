@@ -1,0 +1,21 @@
+
+
+processing file: my-vignette.Rmd
+  |                                                                              |                                                                      |   0%  |                                                                              |..............                                                        |  20%
+  ordinary text without R code
+
+  |                                                                              |............................                                          |  40%
+label: unnamed-chunk-1 (with options) 
+List of 1
+ $ include: logi FALSE
+
+  |                                                                              |..........................................                            |  60%
+  ordinary text without R code
+
+  |                                                                              |........................................................              |  80%
+label: setup
+Quitting from lines 18-19 (my-vignette.Rmd) 
+Error in library(omicScaleR) : there is no package called 'omicScaleR'
+Calls: <Anonymous> ... withCallingHandlers -> withVisible -> eval -> eval -> library
+
+Execution halted
