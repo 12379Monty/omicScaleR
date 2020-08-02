@@ -41,6 +41,7 @@ lintr::lint_package()
 devtools::check()
 devtools::document()
 devtools::load_all()
+devtools::install()
 ?this
 
 
@@ -67,4 +68,5 @@ usethis::use_pkgdown()
 
 pkgdown::build_site()
 
-
+# travis
+usethis::use_travis()
