@@ -59,3 +59,12 @@ useDynLib(omicScaleR, .registration=TRUE)
 
 devtools::load_all() #### better to Build and Reload!!!
 timesTwo(11) #### STILL DONE WORK!
+
+
+# Creating a website for the R package
+# See https://mvuorre.github.io/exampleRPackage/
+usethis::use_pkgdown()
+
+pkgdown::build_site()
+
+

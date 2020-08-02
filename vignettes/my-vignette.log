@@ -1,25 +1,0 @@
-
-
-processing file: my-vignette.Rmd
-  |                                                                              |                                                                      |   0%  |                                                                              |..............                                                        |  20%
-  ordinary text without R code
-
-  |                                                                              |............................                                          |  40%
-label: unnamed-chunk-1 (with options) 
-List of 1
- $ include: logi FALSE
-
-  |                                                                              |..........................................                            |  60%
-  ordinary text without R code
-
-  |                                                                              |........................................................              |  80%
-label: setup
-  |                                                                              |......................................................................| 100%
-  ordinary text without R code
-
-
-output file: my-vignette.knit.md
-
-/usr/local/bin/pandoc +RTS -K512m -RTS my-vignette.utf8.md --to html4 --from markdown+autolink_bare_uris+tex_math_single_backslash --output my-vignette.html --email-obfuscation none --self-contained --standalone --section-divs --template /Library/Frameworks/R.framework/Versions/4.0/Resources/library/rmarkdown/rmd/h/default.html --highlight-style pygments --css /Library/Frameworks/R.framework/Versions/4.0/Resources/library/rmarkdown/rmarkdown/templates/html_vignette/resources/vignette.css --include-in-header /var/folders/wd/v5lfllh152x0hwhtr773cnmnjqcpdt/T//RtmpggHZ0A/rmarkdown-strc2ab5d58374b.html --mathjax --variable 'mathjax-url:https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML' --lua-filter /Library/Frameworks/R.framework/Versions/4.0/Resources/library/rmarkdown/rmd/lua/pagebreak.lua --lua-filter /Library/Frameworks/R.framework/Versions/4.0/Resources/library/rmarkdown/rmd/lua/latex-div.lua 
-
-Output created: my-vignette.html
