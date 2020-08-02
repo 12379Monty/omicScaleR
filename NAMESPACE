@@ -2,4 +2,3 @@
 
 export(obj_load)
 export(obj_save)
-export(timesTwo)
