@@ -18,8 +18,13 @@ RoxygenNote: 7.1.0
 Imports: 
     knitr,
     rmarkdown,
-    dplyr
+    dplyr,
+    Rcpp
 VignetteBuilder: knitr
 SystemRequirements: None AFIK
 Depends: 
     R (>= 2.10)
+Suggests: 
+    testthat
+LinkingTo: 
+    Rcpp

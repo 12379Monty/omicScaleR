@@ -1,3 +1,9 @@
+# github
+export GITHUB_PAT=81a4da173fb849361e737400afea00f6a4c68268 
+
+library(devtools)
+install_github("12379Monty/omicScaleR")
+
 # In parent dir
 devtools::create("omicScaleR")
 
@@ -28,3 +34,15 @@ devtools::check()
 devtools::document()
 devtools::load_all()
 ?this
+
+
+# testing
+usethis::use_testthat()
+
+# Rcpp
+usethis::use_rcpp()
+
+# after cpp code is in place
+devtools::document()
+
+devtools::load_all() #### better to Build and Reload!!!

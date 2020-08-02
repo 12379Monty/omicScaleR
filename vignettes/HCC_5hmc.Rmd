@@ -1,11 +1,14 @@
 ---
 title: "DNA Hydroxymethylation in Hepatocellular Carcinoma"
+author: "Francoid Collin"
+date: "`r format(Sys.time(), '%B %d, %Y')`"
 output: rmarkdown::html_vignette
 vignette: >
   %\VignetteIndexEntry{DNA Hydroxymethylation in Hepatocellular Carcinoma}
   %\VignetteEngine{knitr::rmarkdown}
   %\VignetteEncoding{UTF-8}
   %\VignetteDepends{dplyr}
+  \usepackage[utf8]{inputenc}
 ---
 
 ```{r, include = FALSE}

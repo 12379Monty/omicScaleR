@@ -17,12 +17,14 @@
 #' }
 NULL
 #' @rdname file_management
+#' @export
 obj_save <- function(file_name = "", obj_name = "", data_dir = file.path("data")) {
     assign(file_name, get(obj_name))
     save(list = file_name, file = file.path(data_dir, file_name))
     rm(list = file_name)
 }
 #' @rdname file_management
+#' @export
 obj_load <- function(file_name = "", obj_name = "", data_dir = file.path("data")) {
     load(file.path(data_dir, file_name))
     assign(obj_name, get(file_name), pos = 1)

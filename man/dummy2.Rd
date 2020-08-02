@@ -17,9 +17,8 @@ dummy2
 \item \code{r_function_call(with = "arguments")}
 \item \code{\link{function}}: function in this package.
 \item \code{\link[MASS]{abbey}}: function in another package.
-\item \link[=dest]{name}: link to dest, but show name.
+\item \link[=function]{name}: link to function, but show name.
 \item \code{\link[MASS:abbey]{name}}: link to function in another package, but show name.
-\item \linkS4class{abc}: link to an S4 class.
 \item \url{https://fzstat-rnaseq-marray.netlify.app/}: a url.
 \item \href{https://keepyourheadup.netlify.app/}{Keep Your Head Up!}: a url with custom link text.
 \item \email{francois.collin@gmail.com} (note the doubled @): an email address.
