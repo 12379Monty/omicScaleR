@@ -1,8 +1,16 @@
 # github
 export GITHUB_PAT=81a4da173fb849361e737400afea00f6a4c68268 
 
-library(devtools)
-install_github("12379Monty/omicScaleR")
+devtools::install_github("12379Monty/omicScaleR")
+
+# or,,, NOT RECOMMENDED
+setwd('..')
+system("R CMD build omicScaleR")
+system("R CMD INSTALL omicScaleR")
+setwd('omicScaleR')
+# Continue ...
+library(omicScaleR)
+
 
 # In parent dir
 devtools::create("omicScaleR")
@@ -45,4 +53,9 @@ usethis::use_rcpp()
 # after cpp code is in place
 devtools::document()
 
+$ Add to NAMESPACE ???
+useDynLib(omicScaleR, .registration=TRUE)
+
+
 devtools::load_all() #### better to Build and Reload!!!
+timesTwo(11) #### STILL DONE WORK!
