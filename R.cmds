@@ -1,5 +1,5 @@
 # github
-export GITHUB_PAT=81a4da173fb849361e737400afea00f6a4c68268 
+export GITHUB_PAT=
 
 devtools::install_github("12379Monty/omicScaleR")
 
