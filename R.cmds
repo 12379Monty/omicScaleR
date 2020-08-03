@@ -1,7 +1,8 @@
 # github
 export GITHUB_PAT=
-
 devtools::install_github("12379Monty/omicScaleR")
+
+
 
 # or,,, NOT RECOMMENDED
 setwd('..')
@@ -70,3 +71,6 @@ pkgdown::build_site()
 
 # travis
 usethis::use_travis()
+
+# README
+Rscript -e "rmarkdown::render('README.Rmd')"
