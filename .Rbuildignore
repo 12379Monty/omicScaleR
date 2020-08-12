@@ -1,7 +1,11 @@
 ^vignettes/*\.log$
 ^LICENSE\.md$
 R.cmds
+_config.yml
 git.cmds
+^README\.Rmd$
+README.html
+README.log
 ^data-raw$
 ^vignettes/articles$
 ^_pkgdown\.yml$
@@ -9,4 +13,4 @@ git.cmds
 ^pkgdown$
 ^\.travis\.yml$
 R/data_ignored.R
-^README\.Rmd$
+vignettes/HCC_5hmc.log
