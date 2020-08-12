@@ -11,14 +11,16 @@ The goal of omicScaleR is to …
 
 ## Installation
 
-You can install the released version of omicScaleR from
-[CRAN](https://CRAN.R-project.org) with:
+<!--
+You can install the released version of omicScaleR from [CRAN](https://CRAN.R-project.org) with:
 
 ``` r
 install.packages("omicScaleR")
 ```
+-->
 
-And the development version from [GitHub](https://github.com/) with:
+The development version from [GitHub](https://github.com/) can be
+installed with:
 
 ``` r
 # install.packages("devtools")
@@ -33,6 +35,10 @@ This is a basic example which shows you how to solve a common problem:
 library(omicScaleR)
 ## basic example code
 ```
+
+## Package page
+
+  - <https://12379monty.github.io/omicScaleR/>
 
 -----
 
