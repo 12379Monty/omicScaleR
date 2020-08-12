@@ -1,5 +1,6 @@
 # github
-export GITHUB_PAT=
+#export GITHUB_PAT=
+# remember to unset
 devtools::install_github("12379Monty/omicScaleR")
 
 
@@ -26,10 +27,11 @@ devtools::document()
 devtools::check()
 
 ### THIS IS TO PUT ON CRAN!!!
+########################
 #check_rhub()
 #check_win_devel()
-
 #release()
+
 
 # Styling
 ########################
@@ -55,9 +57,8 @@ usethis::use_rcpp()
 # after cpp code is in place
 devtools::document()
 
-$ Add to NAMESPACE ???
+# Add to NAMESPACE ???
 useDynLib(omicScaleR, .registration=TRUE)
-
 
 devtools::load_all() #### better to Build and Reload!!!
 timesTwo(11) #### STILL DONE WORK!
@@ -74,3 +75,28 @@ usethis::use_travis()
 
 # README
 Rscript -e "rmarkdown::render('README.Rmd')"
+
+#######################################
+# assembling a book
+
+# initiate bookdown - DO ONCE
+# In R
+bookdown:::bookdown_skeleton(getwd())
+
+# OR at cmd line
+nohup Rscript -e  "bookdown:::bookdown_skeleton(getwd())"    >  bookdown_skeleton.log  &
+
+##############################################
+# build the book
+nohup Rscript -e "bookdown::render_book('index.Rmd')"    > render_book.log &
+
+##############################################
+# Preview a chapter
+nohup Rscript -e "bookdown::render_book(input='index.Rmd', preview=T)" > render_index.log  &
+
+
+##############################################
+# to continuously serve the book
+Rscript -e "bookdown::serve_book()" 
+  ###> serve_book.log  &
+
